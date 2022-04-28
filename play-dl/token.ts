@@ -7,7 +7,6 @@ interface tokenOptions {
     spotify?: {
         client_id: string;
         client_secret: string;
-        refresh_token: string;
         market: string;
     };
     soundcloud?: {

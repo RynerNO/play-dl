@@ -224,7 +224,7 @@ export async function refreshToken(): Promise<boolean> {
             )}`,
             'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: `grant_type=refresh_token&refresh_token=${spotifyData.refresh_token}`,
+        body: `grant_type=client_credentials`,
         method: 'POST'
     }).catch((err: Error) => {
         return err;
