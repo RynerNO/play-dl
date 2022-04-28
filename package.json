@@ -13,7 +13,8 @@
     "build:check": "tsc --noEmit --incremental false",
     "pretty": "prettier --config .prettierrc \"play-dl/*.ts\" \"play-dl/*/*.ts\" \"play-dl/*/*/*.ts\" --write ",
     "prepublishOnly": "tsup",
-    "prepare": "tsup"
+    "prepare": "tsup",
+    "postinstall": "tsup"
   },
   "repository": {
     "type": "git",
