@@ -5,3 +5,10 @@ examples/node_modules
 examples/package-lock.json
 examples/package.json
 docs/
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
