@@ -1,0 +1,8 @@
+node_modules
+play-dl
+.prettierrc
+tsconfig.json
+.gitignore
+yarn-error.log
+examples
+instructions
